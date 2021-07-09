@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Buttondroid</string>
+    <string name="button">LOGIN</string>
+    <string name="nameboxhint">Enter Your Name</string>
+    <string name="passwordboxhint">Enter Your Password</string>
+    <string name="title">ANDROID</string>
+    <string name="logintitle">LOGIN TO MYAPP</string>
+</resources>

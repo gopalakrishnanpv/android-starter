@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"Real Love Calculator "</string>
+    <string name="syncbutton">FIND THE RESULT</string>
+    <string name="Firstname_Hint">ENTER YOUR NAME </string>
+    <string name="Secondname_Hint">ENTER YOUR PARTNER NAME</string>
+    <string name="title_activity_about_us">About Us</string>
+</resources>

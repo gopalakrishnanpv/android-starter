@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="Convert_title">Enter the amount in Pounds(£) </string>
+    <string name="Button_text">CONVERT TO RUPEES</string>
+    <string name="Inputbox_Hint">Enter amount in dollars $</string>
+</resources>

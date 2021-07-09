@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.buttondroid.MainActivity"
+    android:clickable="true"
+    android:focusable="false"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logintitle"
+        android:id="@+id/logintitle"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/namebox"
+        android:layout_alignStart="@+id/namebox"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/namebox"
+        android:layout_marginTop="30dp"
+        android:hint="@string/nameboxhint"
+        android:inputType="textPersonName"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_below="@+id/logintitle"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordbox"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/namebox"
+        android:layout_marginTop="20dp"
+        android:hint="@string/passwordboxhint"
+        android:backgroundTint="@android:color/holo_blue_dark" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:id="@+id/loginbutton"
+        android:layout_below="@+id/passwordbox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="buttonClick"
+        android:background="@android:color/holo_orange_light"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:backgroundTintMode="screen"
+        android:textSize="20sp" />
+
+</RelativeLayout>

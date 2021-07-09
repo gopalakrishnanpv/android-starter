@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Random Number</string>
+    <string name="title">GUESS THE RANDOM NUMBER</string>
+    <string name="Inputbox_Hint"><![CDATA[ENTER A NUMBER BETWEEN 1 & 10]]></string>
+    <string name="guessbuttontext">GUESS</string>
+</resources>
